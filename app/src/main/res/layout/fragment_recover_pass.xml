@@ -86,8 +86,7 @@
                             android:inputType="textEmailAddress"
                             android:minHeight="60dp"
                             android:text="Sharahsmith@gmail.com"
-                            android:textColor="#B6B6B6"
-                            android:textSize="@dimen/text_size6" />
+                            android:textColor="#B6B6B6" />
 
 
                     </com.google.android.material.textfield.TextInputLayout>
