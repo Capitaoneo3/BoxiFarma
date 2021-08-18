@@ -1,0 +1,100 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="GeneralNoTitle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorTertiary">@color/textColor</item>
+
+    </style>
+    <style name="DialogTheme_AppCompat" parent="Base.Theme.AppCompat.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorTertiary">@color/textColor</item>
+    </style>
+    <style name="button" >
+        <item name="rippleColor">@color/white</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="btWithIcon16FontM" parent="button">
+        <item name="android:backgroundTint">#4869D4</item>
+        <item name="android:height">68dp</item>
+        <item name="android:autoSizeMinTextSize">12sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">24dp</item>
+        <item name="iconTint">#FFFFFF</item>
+    </style>
+
+    <style name="buttonNoBg" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:height">68dp</item>
+        <item name="android:autoSizeMaxTextSize">16sp</item>
+        <item name="android:autoSizeMinTextSize">12sp</item>
+        <item name="android:fontFamily"></item>
+        <item name="android:padding">16dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="strokeColor">#2196F3</item>
+    </style>
+
+    <style name="fontTitleIntro" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:maxLength">20</item>
+
+    </style>
+    <style name="fontBodyIntro" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLength">70</item>
+    </style>
+    <style name="fontBodyIntroSub" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLength">70</item>
+    </style>
+    <style name="textInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/white</item>
+
+
+    </style>
+    <style name="bt16FontS" parent="btWithIcon16FontM">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="DialogTheme_AppCompat">
+        <item name="windowFixedWidthMajor">60%</item>
+        <item name="windowFixedWidthMinor">60%</item>
+    </style>
+    <style name="NewDialog_No_ShadownBackground" parent="MyAlertDialogTheme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="DialogNoBackground" parent="MyAlertDialogTheme">
+        <item name="windowFixedWidthMajor">60%</item>
+        <item name="windowFixedWidthMinor">60%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+</resources>
