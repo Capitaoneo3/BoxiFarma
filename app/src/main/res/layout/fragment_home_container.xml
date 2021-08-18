@@ -123,6 +123,7 @@
                     android:layout_gravity="bottom"
                     android:outlineAmbientShadowColor="@android:color/transparent"
                     android:outlineSpotShadowColor="@android:color/transparent"
+                    android:visibility="gone"
                     app:backgroundTint="@color/adapter_background_home"
                     app:fabAlignmentMode="center"
                     app:fabCradleMargin="10dp"
@@ -144,8 +145,7 @@
                         app:itemRippleColor="@color/nvRippleColorItems_home"
                         app:itemTextColor="#FFFFFF"
                         app:labelVisibilityMode="unlabeled"
-                        app:menu="@menu/home_container_menu"
-                        />
+                        app:menu="@menu/home_container_menu" />
 
                 </com.google.android.material.bottomappbar.BottomAppBar>
 
