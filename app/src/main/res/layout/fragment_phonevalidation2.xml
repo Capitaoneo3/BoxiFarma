@@ -37,48 +37,24 @@
             app:layout_constraintTop_toBottomOf="@+id/textView6"
             app:layout_constraintVertical_bias="0.32">
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cardView"
+            <com.fraggjkee.smsconfirmationview.SmsConfirmationView
+                android:id="@+id/sms_code_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:outlineAmbientShadowColor="#2196F3"
-                android:outlineProvider="background"
-                android:outlinesSpotShadowColor="@android:color/red"
-                app:cardCornerRadius="24dp"
-                app:cardElevation="4dp">
+                android:gravity="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                app:scv_symbolBackgroundColor="#79FFFFFF"
+                app:scv_symbolBorderColor="#929A9E"
+                app:scv_symbolBorderCornerRadius="24dp"
+                app:scv_symbolBorderWidth="2dp"
+                app:scv_symbolHeight="80dp"
+                app:scv_symbolTextColor="#37474F"
+                app:scv_symbolTextSize="15sp"
+                app:scv_symbolWidth="70dp"
+                app:scv_symbolsSpacing="10dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="6dp"
-                    android:paddingStart="6dp"
-                    android:paddingEnd="6dp">
-
-                    <com.fraggjkee.smsconfirmationview.SmsConfirmationView
-                        android:id="@+id/sms_code_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:paddingTop="4dp"
-                        android:paddingBottom="4dp"
-                        app:scv_symbolBackgroundColor="#79606060"
-                        app:scv_symbolBorderColor="@color/white"
-                        app:scv_symbolBorderCornerRadius="24dp"
-                        app:scv_symbolBorderWidth="0dp"
-                        app:scv_symbolHeight="80dp"
-                        app:scv_symbolTextColor="#FFFFFF"
-                        app:scv_symbolTextSize="15sp"
-                        app:scv_symbolWidth="70dp"
-                        app:scv_symbolsSpacing="10dp">
-
-                    </com.fraggjkee.smsconfirmationview.SmsConfirmationView>
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+            </com.fraggjkee.smsconfirmationview.SmsConfirmationView>
 
             <Button
                 android:id="@+id/button"

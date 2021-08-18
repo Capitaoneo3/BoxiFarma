@@ -17,5 +17,65 @@
         android:id="@+id/introContainerFrag"
         android:name="br.com.app5m.boxifarma.ui.fragment.IntroContainerFrag"
         android:label="fragment_intro_container"
-        tools:layout="@layout/fragment_intro_container" />
+        tools:layout="@layout/fragment_intro_container" >
+        <action
+            android:id="@+id/action_introContainerFrag_to_siginInFragment"
+            app:destination="@id/siginInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/siginInFragment"
+        android:name="br.com.app5m.boxifarma.ui.fragment.SiginInFragment"
+        android:label="fragment_sigin_in"
+        tools:layout="@layout/fragment_sigin_in" >
+        <action
+            android:id="@+id/action_siginInFragment_to_siginUpFrag"
+            app:destination="@id/siginUpFrag" />
+        <action
+            android:id="@+id/action_siginInFragment_to_loginFrag"
+            app:destination="@id/loginFrag" />
+        <action
+            android:id="@+id/action_siginInFragment_to_recoverPassFrag"
+            app:destination="@id/recoverPassFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.LoginFrag"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/siginUpFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.SiginUpFrag"
+        android:label="fragment_sigin_up"
+        tools:layout="@layout/fragment_sigin_up" >
+        <action
+            android:id="@+id/action_siginUpFrag_to_phoneValidation1Frag"
+            app:destination="@id/phoneValidation1Frag" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneValidation1Frag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.PhoneValidation1Frag"
+        android:label="fragment_phone_validation1"
+        tools:layout="@layout/fragment_phone_validation1" >
+        <action
+            android:id="@+id/action_phoneValidation1Frag_to_phonevalidation2Frag"
+            app:destination="@id/phonevalidation2Frag" />
+    </fragment>
+    <fragment
+        android:id="@+id/phonevalidation2Frag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.Phonevalidation2Frag"
+        android:label="fragment_phonevalidation2"
+        tools:layout="@layout/fragment_phonevalidation2" >
+        <action
+            android:id="@+id/action_phonevalidation2Frag_to_loginFrag"
+            app:destination="@id/loginFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/recoverPassFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.RecoverPassFrag"
+        android:label="fragment_recover_pass"
+        tools:layout="@layout/fragment_recover_pass" >
+        <action
+            android:id="@+id/action_recoverPassFrag_to_loginFrag"
+            app:destination="@id/loginFrag" />
+    </fragment>
 </navigation>
