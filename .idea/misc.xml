@@ -12,6 +12,9 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/shape_items1_avatar.xml" value="0.25925925925925924" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/svg_intro1.xml" value="0.2203125" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_bottom_nav.xml" value="0.22" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_drawer.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_home_container.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro1.xml" value="0.25" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro2.xml" value="0.20102564102564102" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro3.xml" value="0.22" />
@@ -24,6 +27,9 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_sigin_up.xml" value="0.33" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_splash.xml" value="0.22" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/loading.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/menu/HomeContainerMenu.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/menu/drawer.xml" value="0.16527777777777777" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/menu/home_container_menu.xml" value="0.2833333333333333" />
       </map>
     </option>
   </component>

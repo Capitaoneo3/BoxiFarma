@@ -24,9 +24,9 @@ class LoginFrag : Fragment() {
         val navigation = Navigation.findNavController(view)
 
         login_bt_login.setOnClickListener {
-/*
-            navigation?.navigate(R.id.action_siginInFragment_to_loginFrag)
-*/
+
+            navigation?.navigate(R.id.action_loginFrag_to_homeContainerFrag)
+
 
         }
         recoverPass_tv.setOnClickListener {

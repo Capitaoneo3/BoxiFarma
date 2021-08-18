@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/bottom_nav_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundProject"
+        android:orientation="vertical"
+        tools:context=".ui.fragment.HomeContainerFrag">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/trasparent"
+                android:visibility="visible"
+                app:layout_constraintTop_toTopOf="parent"
+                app:titleTextColor="@color/textColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="100dp"
+                    tools:layout_editor_absoluteY="3dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/media_image"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="new post image"
+                            android:scaleType="centerCrop"
+                            android:visibility="visible"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView12"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="new post image"
+                            android:scaleType="center"
+                            android:visibility="visible"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:tint="@color/colorAccent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/bottom_nav_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/trasparent"
+                android:visibility="visible"
+                app:layout_constraintTop_toTopOf="parent"
+                app:titleTextColor="@color/textColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="100dp"
+                    tools:layout_editor_absoluteY="3dp" />
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/bottom_nav_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/coordinatorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:minHeight="90dp"
+                android:outlineAmbientShadowColor="@android:color/transparent"
+                android:outlineSpotShadowColor="@android:color/transparent"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:context=".MainActivity">
+
+                <com.google.android.material.bottomappbar.BottomAppBar
+                    android:id="@+id/bottomAppBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:outlineAmbientShadowColor="@android:color/transparent"
+                    android:outlineSpotShadowColor="@android:color/transparent"
+                    app:backgroundTint="@color/adapter_background_home"
+                    app:fabAlignmentMode="center"
+                    app:fabCradleMargin="10dp"
+                    app:fabCradleRoundedCornerRadius="10dp"
+                    app:fabCradleVerticalOffset="0dp"
+                    app:titleMargin="0dp">
+
+                    <com.google.android.material.bottomnavigation.BottomNavigationView
+                        android:id="@+id/bottom_nav_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/trasparent"
+                        android:backgroundTint="@color/trasparent"
+                        android:outlineAmbientShadowColor="@android:color/transparent"
+                        android:outlineSpotShadowColor="@android:color/transparent"
+                        app:backgroundTint="@color/trasparent"
+                        app:itemBackground="@color/trasparent"
+                        app:itemRippleColor="@color/nvRippleColorItems_home"
+                        app:itemTextColor="#FFFFFF"
+                        app:labelVisibilityMode="unlabeled"
+                        app:menu="@menu/home_container_menu"
+                        />
+
+                </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
