@@ -82,9 +82,9 @@ class IntroContainerFrag : Fragment() {
         }
 */
         skip_intro_bt.setOnClickListener {
-/*
-            navigation?.navigate(R.id.action_splashFrag_to_introContainerFrag)
-*/
+
+            navigation?.navigate(R.id.action_introContainerFrag_to_siginInFragment)
+
         }
 
     }

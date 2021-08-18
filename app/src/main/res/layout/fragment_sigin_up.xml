@@ -41,9 +41,7 @@
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
-                android:outlinesSpotShadowColor="@android:color/red"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="4dp">
 
@@ -87,9 +85,7 @@
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
-                android:outlinesSpotShadowColor="@android:color/red"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="4dp">
 
@@ -132,9 +128,7 @@
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
-                android:outlinesSpotShadowColor="@android:color/red"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="4dp">
 
@@ -180,9 +174,7 @@
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
-                android:outlinesSpotShadowColor="@android:color/red"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="4dp">
 
@@ -221,7 +213,7 @@
             </androidx.cardview.widget.CardView>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/next_siginUp_bt"
                 style="@style/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

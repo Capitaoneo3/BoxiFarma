@@ -43,9 +43,7 @@
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
-                android:outlinesSpotShadowColor="@android:color/red"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="4dp">
 
@@ -89,9 +87,7 @@
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
-                android:outlinesSpotShadowColor="@android:color/red"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="4dp">
 
@@ -130,7 +126,7 @@
             </androidx.cardview.widget.CardView>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/login_bt_login"
                 style="@style/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -158,7 +154,7 @@
                     android:textSize="@dimen/text_size5" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/recoverPass_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="6dp"

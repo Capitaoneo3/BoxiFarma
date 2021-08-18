@@ -57,14 +57,14 @@
             </com.fraggjkee.smsconfirmationview.SmsConfirmationView>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/verify_phoneVal2_bt"
                 style="@style/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="16dp"
-                android:text="Avançar"
+                android:text="Validar"
                 android:textAllCaps="false" />
 
             <LinearLayout

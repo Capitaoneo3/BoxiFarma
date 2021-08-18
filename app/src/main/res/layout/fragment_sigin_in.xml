@@ -50,7 +50,7 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/login_bt"
                 style="@style/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -59,6 +59,7 @@
                 android:textAllCaps="false" />
 
             <Button
+                android:id="@+id/siginUp_bt"
                 style="@style/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -11,7 +11,11 @@
         tools:layout="@layout/fragment_splash" >
         <action
             android:id="@+id/action_splashFrag_to_introContainerFrag"
-            app:destination="@id/introContainerFrag" />
+            app:destination="@id/introContainerFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/introContainerFrag"
@@ -20,7 +24,12 @@
         tools:layout="@layout/fragment_intro_container" >
         <action
             android:id="@+id/action_introContainerFrag_to_siginInFragment"
-            app:destination="@id/siginInFragment" />
+            app:destination="@id/siginInFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+            />
     </fragment>
     <fragment
         android:id="@+id/siginInFragment"
@@ -29,19 +38,34 @@
         tools:layout="@layout/fragment_sigin_in" >
         <action
             android:id="@+id/action_siginInFragment_to_siginUpFrag"
-            app:destination="@id/siginUpFrag" />
+            app:destination="@id/siginUpFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+            />
         <action
             android:id="@+id/action_siginInFragment_to_loginFrag"
-            app:destination="@id/loginFrag" />
-        <action
-            android:id="@+id/action_siginInFragment_to_recoverPassFrag"
-            app:destination="@id/recoverPassFrag" />
+            app:destination="@id/loginFrag"     app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" /><![CDATA[/>
+        />
+    ]]>
     </fragment>
     <fragment
         android:id="@+id/loginFrag"
         android:name="br.com.app5m.boxifarma.ui.fragment.LoginFrag"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFrag_to_recoverPassFrag"
+            app:destination="@id/recoverPassFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+    </fragment>
     <fragment
         android:id="@+id/siginUpFrag"
         android:name="br.com.app5m.boxifarma.ui.fragment.SiginUpFrag"
@@ -49,7 +73,10 @@
         tools:layout="@layout/fragment_sigin_up" >
         <action
             android:id="@+id/action_siginUpFrag_to_phoneValidation1Frag"
-            app:destination="@id/phoneValidation1Frag" />
+            app:destination="@id/phoneValidation1Frag"    app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" /> />
     </fragment>
     <fragment
         android:id="@+id/phoneValidation1Frag"
@@ -58,7 +85,10 @@
         tools:layout="@layout/fragment_phone_validation1" >
         <action
             android:id="@+id/action_phoneValidation1Frag_to_phonevalidation2Frag"
-            app:destination="@id/phonevalidation2Frag" />
+            app:destination="@id/phonevalidation2Frag"    app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" /> />
     </fragment>
     <fragment
         android:id="@+id/phonevalidation2Frag"
@@ -67,7 +97,10 @@
         tools:layout="@layout/fragment_phonevalidation2" >
         <action
             android:id="@+id/action_phonevalidation2Frag_to_loginFrag"
-            app:destination="@id/loginFrag" />
+            app:destination="@id/loginFrag"    app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" /> />
     </fragment>
     <fragment
         android:id="@+id/recoverPassFrag"
@@ -76,6 +109,9 @@
         tools:layout="@layout/fragment_recover_pass" >
         <action
             android:id="@+id/action_recoverPassFrag_to_loginFrag"
-            app:destination="@id/loginFrag" />
+            app:destination="@id/loginFrag"    app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" /> />
     </fragment>
 </navigation>

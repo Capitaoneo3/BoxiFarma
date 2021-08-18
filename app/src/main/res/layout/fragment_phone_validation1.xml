@@ -46,9 +46,7 @@
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
-                android:outlinesSpotShadowColor="@android:color/red"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="4dp">
 
@@ -74,7 +72,6 @@
                             android:background="#007A4242"
                             android:gravity="center"
                             android:letterSpacing="0.3"
-                            android:text="51986557932"
                             android:textColor="#B6B6B6"
                             android:textSize="20sp"
                             app:mask="(##)#####-####" />
@@ -84,7 +81,7 @@
             </androidx.cardview.widget.CardView>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/next_phoneVal1_bt"
                 style="@style/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
