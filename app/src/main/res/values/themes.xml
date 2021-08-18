@@ -18,13 +18,29 @@
         <item name="android:textColorSecondary">@color/textColor</item>
         <item name="android:textColorTertiary">@color/textColor</item>
     </style>
-    <style name="button" >
+    <style name="button1" >
         <item name="rippleColor">@color/white</item>
-        <item name="android:minWidth">50dp</item>
-        <item name="android:minHeight">50dp</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:minWidth">90dp</item>
+        <item name="android:minHeight">62dp</item>
+        <item name="android:textSize">@dimen/text_size4</item>
+        <item name="android:backgroundTint">#2C7CA5</item>
+        <item name="cornerRadius">26dp</item>
+        <item name="android:autoSizeMinTextSize">@dimen/text_size1</item>
+
     </style>
-    <style name="btWithIcon16FontM" parent="button">
+    <style name="button2"  >
+        <item name="rippleColor">@color/white</item>
+        <item name="android:minWidth">90dp</item>
+        <item name="android:minHeight">62dp</item>
+        <item name="android:textSize">@dimen/text_size4</item>
+        <item name="cornerRadius">26dp</item>
+        <item name="android:backgroundTint">#7DBC1A</item>
+        <item name="android:autoSizeMinTextSize">@dimen/text_size1</item>
+
+    </style>
+
+
+    <style name="btWithIcon16FontM" parent="button1">
         <item name="android:backgroundTint">#4869D4</item>
         <item name="android:height">68dp</item>
         <item name="android:autoSizeMinTextSize">12sp</item>
@@ -39,18 +55,15 @@
         <item name="iconTint">#FFFFFF</item>
     </style>
 
-    <style name="buttonNoBg" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:height">68dp</item>
-        <item name="android:autoSizeMaxTextSize">16sp</item>
-        <item name="android:autoSizeMinTextSize">12sp</item>
-        <item name="android:fontFamily"></item>
-        <item name="android:padding">16dp</item>
-        <item name="android:paddingEnd">24dp</item>
-        <item name="android:paddingStart">24dp</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:textSize">16sp</item>
-        <item name="strokeColor">#2196F3</item>
+    <style name="button2NoBg" parent="Widget.MaterialComponents.Button.OutlinedButton" >
+        <item name="rippleColor">@color/white</item>
+        <item name="android:minWidth">90dp</item>
+        <item name="android:minHeight">62dp</item>
+        <item name="android:textSize">@dimen/text_size3</item>
+        <item name="strokeColor">#7DBC1A</item>
+        <item name="android:textColor">#7DBC1A</item>
+        <item name="cornerRadius">26dp</item>
+
     </style>
 
     <style name="fontTitleIntro" parent="Widget.MaterialComponents.TextView">
