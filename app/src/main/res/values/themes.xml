@@ -8,6 +8,7 @@
         <item name="android:textColorSecondary">@color/textColor</item>
         <item name="android:textColorTertiary">@color/textColor</item>
 
+        <item name="android:fontFamily">@font/montserrat</item>
     </style>
     <style name="DialogTheme_AppCompat" parent="Base.Theme.AppCompat.Dialog.Alert">
         <item name="colorPrimary">@color/colorPrimary</item>
