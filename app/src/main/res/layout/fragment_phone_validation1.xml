@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#F8F8FF"
     android:fillViewport="true"
-    tools:context=".ui.fragment.RecoverPassFrag">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".ui.fragment.PhoneValidation1Frag">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/textView6"
@@ -19,43 +21,30 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="64dp"
             android:layout_marginEnd="16dp"
-            android:text="Recuperar Senha"
+            android:text="Digite o seu Número"
             android:textSize="@dimen/text_size_semi_super"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView7"
-            style="@style/fontBodyIntroSub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:maxLength="200"
-            android:paddingStart="16dp"
-            android:text="Digite o seu endereço de Email abaixo que enviaremos o Email de redefinição."
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:layout_constraintVertical_bias="0.19">
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.32">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView2"
+                android:id="@+id/cardView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="100dp"
                 android:layout_marginEnd="16dp"
                 android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
@@ -74,23 +63,21 @@
                         style="@style/textInputLayout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:hint="Email de Recuperação"
-                        app:boxStrokeWidth="0dp"
-                        app:endIconTint="#797A7D">
+                        android:hint="Seu Número"
+                        app:boxStrokeWidth="0dp">
 
-
-                        <EditText
+                        <com.vicmikhailau.maskededittext.MaskedEditText
+                            android:id="@+id/editText"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#006C6C6C"
-                            android:ems="10"
-
-                            android:inputType="textEmailAddress"
-                            android:minHeight="60dp"
-                            android:text="Sharahsmith@gmail.com"
-                            android:textColor="#B6B6B6" />
-
-
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#007A4242"
+                            android:gravity="center"
+                            android:letterSpacing="0.3"
+                            android:text="51986557932"
+                            android:textColor="#B6B6B6"
+                            android:textSize="20sp"
+                            app:mask="(##)#####-####" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
@@ -102,10 +89,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="16dp"
-                android:text="Enviar"
+                android:text="Avançar"
                 android:textAllCaps="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp"
+                android:gravity="center"
+                android:orientation="horizontal" />
 
         </LinearLayout>
 

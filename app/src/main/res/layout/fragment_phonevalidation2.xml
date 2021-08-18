@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#F8F8FF"
     android:fillViewport="true"
-    tools:context=".ui.fragment.RecoverPassFrag">
+    tools:context=".ui.fragment.Phonevalidation2Frag">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/textView6"
@@ -18,44 +18,31 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="64dp"
-            android:layout_marginEnd="16dp"
-            android:text="Recuperar Senha"
+            android:layout_marginEnd="13dp"
+            android:text="Digite o Código de Verificação"
             android:textSize="@dimen/text_size_semi_super"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView7"
-            style="@style/fontBodyIntroSub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:maxLength="200"
-            android:paddingStart="16dp"
-            android:text="Digite o seu endereço de Email abaixo que enviaremos o Email de redefinição."
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:layout_constraintVertical_bias="0.19">
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.32">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView2"
+                android:id="@+id/cardView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="100dp"
                 android:layout_marginEnd="16dp"
                 android:outlineAmbientShadowColor="#2196F3"
                 android:outlineProvider="background"
@@ -67,31 +54,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:padding="6dp"
                     android:paddingStart="6dp"
                     android:paddingEnd="6dp">
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        style="@style/textInputLayout"
+                    <com.fraggjkee.smsconfirmationview.SmsConfirmationView
+                        android:id="@+id/sms_code_view"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:hint="Email de Recuperação"
-                        app:boxStrokeWidth="0dp"
-                        app:endIconTint="#797A7D">
+                        android:gravity="center"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        app:scv_symbolBackgroundColor="#79606060"
+                        app:scv_symbolBorderColor="@color/white"
+                        app:scv_symbolBorderCornerRadius="24dp"
+                        app:scv_symbolBorderWidth="0dp"
+                        app:scv_symbolHeight="80dp"
+                        app:scv_symbolTextColor="#FFFFFF"
+                        app:scv_symbolTextSize="15sp"
+                        app:scv_symbolWidth="70dp"
+                        app:scv_symbolsSpacing="10dp">
 
-
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#006C6C6C"
-                            android:ems="10"
-
-                            android:inputType="textEmailAddress"
-                            android:minHeight="60dp"
-                            android:text="Sharahsmith@gmail.com"
-                            android:textColor="#B6B6B6" />
-
-
-                    </com.google.android.material.textfield.TextInputLayout>
+                    </com.fraggjkee.smsconfirmationview.SmsConfirmationView>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -102,10 +86,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="16dp"
-                android:text="Enviar"
+                android:text="Avançar"
                 android:textAllCaps="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp"
+                android:gravity="center"
+                android:orientation="horizontal" />
 
         </LinearLayout>
 

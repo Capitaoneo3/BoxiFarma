@@ -2,12 +2,11 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F8FF"
     android:fillViewport="true"
-    tools:context=".ui.fragment.LoginFrag">
+    tools:context=".ui.fragment.SiginUpFrag">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -20,7 +19,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="64dp"
             android:layout_marginEnd="16dp"
-            android:text="Login"
+            android:text="Crie uma Conta"
             android:textSize="@dimen/text_size_semi_super"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +34,51 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:outlineAmbientShadowColor="#2196F3"
+                android:outlineProvider="background"
+                android:outlinesSpotShadowColor="@android:color/red"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="6dp"
+                    android:paddingEnd="6dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/textInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Nome Completo"
+                        app:boxStrokeWidth="0dp"
+                        app:endIconTint="#797A7D">
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#006C6C6C"
+                            android:ems="10"
+
+                            android:inputType="text|textEmailAddress"
+                            android:minHeight="60dp"
+                            android:text="Sharah Smith"
+                            android:textColor="#B6B6B6" />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
@@ -83,7 +127,6 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
@@ -121,6 +164,54 @@
                             android:inputType="textPassword"
                             android:minHeight="60dp"
                             android:paddingTop="10dp"
+                            android:text="464891561"
+                            android:textColor="#E0E0E2" />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:outlineAmbientShadowColor="#2196F3"
+                android:outlineProvider="background"
+                android:outlinesSpotShadowColor="@android:color/red"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="6dp"
+                    android:paddingEnd="6dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/textInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Repetir Senha"
+                        app:boxStrokeWidth="0dp"
+                        app:endIconMode="password_toggle"
+                        app:endIconTint="#797A7D">
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#006C6C6C"
+                            android:ems="10"
+
+                            android:inputType="textPassword"
+                            android:minHeight="60dp"
+                            android:paddingTop="10dp"
                             android:textColor="#E0E0E2" />
 
 
@@ -131,14 +222,13 @@
 
             <Button
                 android:id="@+id/button"
-                style="@style/button1"
+                style="@style/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="16dp"
-                android:backgroundTint="#2C7CA5"
-                android:text="Login"
+                android:text="Avançar"
                 android:textAllCaps="false" />
 
             <LinearLayout
@@ -153,18 +243,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="6dp"
-                    android:text="Esqueceu a senha?"
+                    android:text="@string/termsShort"
                     android:textAlignment="center"
                     android:textSize="@dimen/text_size5" />
 
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="6dp"
-                    android:text="Recuperar Senha"
-                    android:textColor="#2C7CA5"
-                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>

@@ -17,8 +17,11 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro3.xml" value="0.22" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro_container.xml" value="0.17" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_phone_validation1.xml" value="0.25" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_phonevalidation2.xml" value="0.33" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_recover_pass.xml" value="0.33" />
-        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_sigin_in.xml" value="0.33" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_sigin_in.xml" value="0.22" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_sigin_up.xml" value="0.33" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_splash.xml" value="0.22" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/loading.xml" value="0.12771739130434784" />
       </map>
