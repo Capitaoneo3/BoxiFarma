@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8F8FF"
     android:fillViewport="true"
     android:padding="16dp"
     tools:context=".ui.fragment.SiginInFragment">
@@ -44,7 +45,9 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent">
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
             <Button
                 android:id="@+id/button"
@@ -77,7 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="24dp"
                 android:background="@drawable/google_bt_bg"
                 android:backgroundTint="#2C7CA5"
                 android:padding="20dp"
