@@ -9,14 +9,5 @@
         android:id="@+id/homeFrag"
         android:name="br.com.app5m.boxifarma.ui.fragment.HomeFrag"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFrag_to_consultPounchFrag"
-            app:destination="@id/consultPounchFrag" />
-    </fragment>
-    <fragment
-        android:id="@+id/consultPounchFrag"
-        android:name="br.com.app5m.boxifarma.ui.fragment.ConsultPounchFrag"
-        android:label="fragment_consult_pounch"
-        tools:layout="@layout/fragment_consult_pounch" />
+        tools:layout="@layout/fragment_home" />
 </navigation>

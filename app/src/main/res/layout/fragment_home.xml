@@ -46,7 +46,7 @@
                         android:id="@+id/imageView4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        tools:src="@tools:sample/avatars" />
+                        android:src="@android:drawable/sym_def_app_icon"  />
 
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>

@@ -1,4 +1,4 @@
-package br.com.app5m.boxifarma.ui.fragment
+package br.com.app5m.boxifarma.ui.fragment.dialog
 
 import android.app.Activity
 import android.content.Intent
@@ -7,21 +7,24 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.fragment.app.Fragment
-import br.com.app5m.boxifarma.MainActivity
+import androidx.fragment.app.DialogFragment
 import br.com.app5m.boxifarma.R
 import com.google.zxing.integration.android.IntentIntegrator
 import com.google.zxing.integration.android.IntentResult
-import kotlinx.android.synthetic.main.fragment_consult_pounch.*
+import kotlinx.android.synthetic.main.dialog_consult_pounch.*
 
-class ConsultPounchFrag : Fragment() {
+class ConsultPounchDialog : DialogFragment() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setStyle(DialogFragment.STYLE_NORMAL, R.style.DialogNoBackground)
 
+    }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_consult_pounch, container, false)
+        return inflater.inflate(R.layout.dialog_consult_pounch, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -31,6 +34,13 @@ class ConsultPounchFrag : Fragment() {
             scanner.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE)
             scanner.setBeepEnabled(false) //retira o beep ao scannear
             scanner.initiateScan() // `this` is the current Activity
+
+            //navigation?.navigate(R.id.action_homeFrag_to_consultPounchFrag)
+
+            dialog?.dismiss()
+        }
+        back_bt_consultPounch.setOnClickListener {
+            dialog?.dismiss()
         }
     }
 

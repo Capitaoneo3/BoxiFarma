@@ -40,8 +40,8 @@
         <item name="android:backgroundTint">#2C7CA5</item>
         <item name="cornerRadius">26dp</item>
         <item name="android:autoSizeMinTextSize">@dimen/text_size1</item>
-
     </style>
+
 
     <style name="button2">
         <item name="rippleColor">@color/white</item>
@@ -53,7 +53,9 @@
         <item name="android:autoSizeMinTextSize">@dimen/text_size1</item>
 
     </style>
-
+    <style name="button3" parent="button1">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+    </style>
 
     <style name="btWithIcon16FontM" parent="button1">
         <item name="android:backgroundTint">#4869D4</item>

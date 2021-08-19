@@ -14,10 +14,11 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/shape_items1_avatar.xml" value="0.25925925925925924" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/svg_intro1.xml" value="0.2203125" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/dialog_consult_pounch.xml" value="0.22" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_bottom_nav.xml" value="0.22" />
-        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_consult_pounch.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_consult_pounch.xml" value="0.33" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_drawer.xml" value="0.2833333333333333" />
-        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_home.xml" value="0.19047619047619047" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_home_container.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro1.xml" value="0.25" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro2.xml" value="0.20102564102564102" />
@@ -35,6 +36,8 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/menu/HomeContainerMenu.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/menu/drawer.xml" value="0.16527777777777777" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/menu/home_container_menu.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/joao/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable-watch/sym_def_app_icon.xml" value="0.3143518518518518" />
+        <entry key="..\:/Users/joao/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/sym_def_app_icon.xml" value="0.3143518518518518" />
       </map>
     </option>
   </component>
