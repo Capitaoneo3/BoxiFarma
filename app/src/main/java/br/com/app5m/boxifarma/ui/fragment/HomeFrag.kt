@@ -21,11 +21,12 @@ class HomeFrag : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val navigation = Navigation.findNavController(view)/*
-        buttonHome.setOnClickListener {
-            navigation?.navigate(R.id.action_homeFrag_to_scrollingFragment)
+        val navigation = Navigation.findNavController(view)
 
-        }*/
+        counsultPounch_cv.setOnClickListener {
+            navigation?.navigate(R.id.action_homeFrag_to_consultPounchFrag)
+
+        }
 
     }
 }

@@ -10,12 +10,15 @@
 
         <item name="android:fontFamily">@font/montserrat</item>
     </style>
+
     <style name="Theme.Uplift.Base" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- ... -->
     </style>
+
     <style name="Theme.Uplift" parent="Theme.Uplift.Base">
         <item name="android:ambientShadowAlpha">1</item>
-        <item name="android:outlineAmbientShadowColor">@color/defaultOutlineAmbientShadowColor</item>
+        <item name="android:outlineAmbientShadowColor">@color/defaultOutlineAmbientShadowColor
+        </item>
         <item name="android:spotShadowAlpha">1</item>
         <item name="android:outlineSpotShadowColor">@color/defaultOutlineSpotShadowColor</item>
     </style>
@@ -28,7 +31,8 @@
         <item name="android:textColorSecondary">@color/textColor</item>
         <item name="android:textColorTertiary">@color/textColor</item>
     </style>
-    <style name="button1" >
+
+    <style name="button1">
         <item name="rippleColor">@color/white</item>
         <item name="android:minWidth">90dp</item>
         <item name="android:minHeight">62dp</item>
@@ -38,7 +42,8 @@
         <item name="android:autoSizeMinTextSize">@dimen/text_size1</item>
 
     </style>
-    <style name="button2"  >
+
+    <style name="button2">
         <item name="rippleColor">@color/white</item>
         <item name="android:minWidth">90dp</item>
         <item name="android:minHeight">62dp</item>
@@ -65,7 +70,7 @@
         <item name="iconTint">#FFFFFF</item>
     </style>
 
-    <style name="button2NoBg" parent="Widget.MaterialComponents.Button.OutlinedButton" >
+    <style name="button2NoBg" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="rippleColor">@color/white</item>
         <item name="android:minWidth">90dp</item>
         <item name="android:minHeight">62dp</item>
@@ -81,20 +86,24 @@
         <item name="android:maxLength">20</item>
 
     </style>
+
     <style name="fontBodyIntro" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">16sp</item>
         <item name="android:maxLength">70</item>
     </style>
+
     <style name="fontBodyIntroSub" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">14sp</item>
         <item name="android:maxLength">70</item>
     </style>
+
     <style name="textInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="boxStrokeWidth">1dp</item>
         <item name="boxStrokeColor">@color/white</item>
 
 
     </style>
+
     <style name="bt16FontS" parent="btWithIcon16FontM">
         <item name="android:backgroundTint">@color/colorAccent</item>
         <item name="android:textColor">@color/black</item>
@@ -104,6 +113,7 @@
         <item name="windowFixedWidthMajor">60%</item>
         <item name="windowFixedWidthMinor">60%</item>
     </style>
+
     <style name="NewDialog_No_ShadownBackground" parent="MyAlertDialogTheme">
         <item name="android:windowFrame">@null</item>
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -115,10 +125,20 @@
         <item name="android:backgroundDimEnabled">false</item>
         <item name="android:background">@android:color/transparent</item>
     </style>
+
     <style name="DialogNoBackground" parent="MyAlertDialogTheme">
         <item name="windowFixedWidthMajor">60%</item>
         <item name="windowFixedWidthMinor">60%</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
+
+    <style name="GeneralNoTitle.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GeneralNoTitle.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="GeneralNoTitle.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
