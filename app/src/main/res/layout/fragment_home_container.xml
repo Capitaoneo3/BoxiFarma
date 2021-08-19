@@ -10,82 +10,86 @@
         android:orientation="vertical"
         tools:context=".ui.fragment.HomeContainerFrag">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trasparent">
+
+        <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/trasparent"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="@color/textColor">
 
-            <com.google.android.material.appbar.MaterialToolbar
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@color/trasparent"
-                android:visibility="visible"
-                app:layout_constraintTop_toTopOf="parent"
-                app:titleTextColor="@color/textColor">
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="3dp">
 
-                <LinearLayout
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    tools:layout_editor_absoluteX="100dp"
-                    tools:layout_editor_absoluteY="3dp">
+                    android:layout_weight="1"
+                    android:background="@color/trasparent">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/media_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="new post image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/logo_full"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
-                        <ImageView
-                            android:id="@+id/media_image"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:adjustViewBounds="true"
-                            android:contentDescription="new post image"
-                            android:scaleType="centerCrop"
-                            android:visibility="visible"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="@+id/imageView12"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="new post image"
+                        android:scaleType="center"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="@color/colorAccent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                        <ImageView
-                            android:id="@+id/imageView12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="0dp"
-                            android:adjustViewBounds="true"
-                            android:contentDescription="new post image"
-                            android:scaleType="center"
-                            android:visibility="visible"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:tint="@color/colorAccent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
 
-                </LinearLayout>
+        </com.google.android.material.appbar.MaterialToolbar>
 
-            </com.google.android.material.appbar.MaterialToolbar>
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/bottom_nav_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/trasparent"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="@color/textColor">
 
-            <com.google.android.material.appbar.MaterialToolbar
-                android:id="@+id/bottom_nav_toolbar"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/trasparent"
-                android:visibility="visible"
-                app:layout_constraintTop_toTopOf="parent"
-                app:titleTextColor="@color/textColor">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="3dp" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    tools:layout_editor_absoluteX="100dp"
-                    tools:layout_editor_absoluteY="3dp" />
+        </com.google.android.material.appbar.MaterialToolbar>
 
-            </com.google.android.material.appbar.MaterialToolbar>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
