@@ -7,6 +7,7 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/decor_shape_no_bg_vertical_categories.xml" value="0.3143518518518518" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/google_bt_bg.xml" value="0.3143518518518518" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/ic_googler.xml" value="0.3143518518518518" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/ic_qr_code.xml" value="0.30177777777777776" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/sh_unselected.xml" value="0.2203125" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/shape_body_items1_border.xml" value="0.2203125" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/drawable/shape_items1_avatar.xml" value="0.25925925925925924" />
@@ -14,7 +15,7 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_bottom_nav.xml" value="0.22" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_drawer.xml" value="0.2833333333333333" />
-        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_home.xml" value="0.3" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_home_container.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro1.xml" value="0.25" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_intro2.xml" value="0.20102564102564102" />
@@ -24,6 +25,7 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_phone_validation1.xml" value="0.25" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_phonevalidation2.xml" value="0.33" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_recover_pass.xml" value="0.33" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_scrolling.xml" value="0.2958904109589041" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_sigin_in.xml" value="0.22" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_sigin_up.xml" value="0.33" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/layout/fragment_splash.xml" value="0.22" />

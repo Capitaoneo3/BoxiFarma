@@ -9,5 +9,14 @@
         android:id="@+id/homeFrag"
         android:name="br.com.app5m.boxifarma.ui.fragment.HomeFrag"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFrag_to_scrollingFragment"
+            app:destination="@id/scrollingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scrollingFragment"
+        android:name="br.com.app5m.boxifarma.ui.fragment.ScrollingFragment"
+        android:label="fragment_scrolling"
+        tools:layout="@layout/fragment_scrolling" />
 </navigation>
