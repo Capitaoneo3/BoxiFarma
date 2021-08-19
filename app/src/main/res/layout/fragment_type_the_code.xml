@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/trasparent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.dialog.TypeTheCodeFrag">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o código abaixo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeWidth="0dp"
+        app:endIconTint="#797A7D">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#006C6C6C"
+            android:ems="10"
+
+            android:inputType="text|textEmailAddress"
+            android:minHeight="60dp"
+            android:textColor="#B6B6B6" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

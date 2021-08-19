@@ -11,9 +11,9 @@ import androidx.fragment.app.DialogFragment
 import br.com.app5m.boxifarma.R
 import com.google.zxing.integration.android.IntentIntegrator
 import com.google.zxing.integration.android.IntentResult
-import kotlinx.android.synthetic.main.dialog_consult_pounch.*
+import kotlinx.android.synthetic.main.dialog_consult_qr_code.*
 
-class ConsultPounchDialog : DialogFragment() {
+class ConsultQrCodeDialog : DialogFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setStyle(DialogFragment.STYLE_NORMAL, R.style.DialogNoBackground)
@@ -24,12 +24,12 @@ class ConsultPounchDialog : DialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.dialog_consult_pounch, container, false)
+        return inflater.inflate(R.layout.dialog_consult_qr_code, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        btn_leitura.setOnClickListener {
+        btn_consultQrCode.setOnClickListener {
             val scanner = IntentIntegrator(activity)
             scanner.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE)
             scanner.setBeepEnabled(false) //retira o beep ao scannear
@@ -39,7 +39,7 @@ class ConsultPounchDialog : DialogFragment() {
 
             dialog?.dismiss()
         }
-        back_bt_consultPounch.setOnClickListener {
+        back_bt_consultQrCode.setOnClickListener {
             dialog?.dismiss()
         }
     }

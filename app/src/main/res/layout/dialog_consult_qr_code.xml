@@ -6,10 +6,10 @@
     android:layout_height="wrap_content"
     android:background="@color/trasparent"
     android:fillViewport="true"
-    tools:context=".ui.fragment.dialog.ConsultPounchDialog">
+    tools:context=".ui.fragment.dialog.ConsultQrCodeDialog">
 
     <Button
-        android:id="@+id/back_bt_consultPounch"
+        android:id="@+id/back_bt_consultQrCode"
         style="@style/button1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -19,12 +19,12 @@
         android:paddingRight="50dp"
         android:text="voltar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btn_leitura"
-        app:layout_constraintStart_toStartOf="@+id/btn_leitura"
-        app:layout_constraintTop_toBottomOf="@+id/btn_leitura" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_consultQrCode"
+        app:layout_constraintStart_toStartOf="@+id/btn_consultQrCode"
+        app:layout_constraintTop_toBottomOf="@+id/btn_consultQrCode" />
 
     <Button
-        android:id="@+id/btn_leitura"
+        android:id="@+id/btn_consultQrCode"
         style="@style/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
