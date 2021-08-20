@@ -1,4 +1,4 @@
-package br.com.app5m.boxifarma.ui
+package br.com.app5m.boxifarma.ui.fragment
 
 import android.annotation.SuppressLint
 import android.os.Bundle
