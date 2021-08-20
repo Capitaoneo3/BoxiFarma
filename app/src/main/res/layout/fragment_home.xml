@@ -78,13 +78,14 @@
             android:layout_height="match_parent">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/listPatients_cv"
                 style="@style/Theme.Uplift"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="24dp"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="40dp"
                 app:cardElevation="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -133,13 +134,14 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/consultQr_patient_cv"
                 style="@style/Theme.Uplift"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="24dp"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="40dp"
                 app:cardElevation="20dp"
                 app:layout_constraintEnd_toStartOf="@+id/guideline2"

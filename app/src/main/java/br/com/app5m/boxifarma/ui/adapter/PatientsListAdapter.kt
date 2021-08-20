@@ -9,10 +9,10 @@ import br.com.app5m.boxifarma.Helper.RecyclerItemClickListener
 import br.com.app5m.boxifarma.R
 import br.com.app5m.boxifarma.model.Model
 
-class patientsListAdapter  (private val context: Context, private val listPatients: List<Model>,
+class PatientsListAdapter  (private val context: Context, private val listPatients: List<Model>,
                             private val clickOnListener: RecyclerItemClickListener
 )
-    : RecyclerView.Adapter<patientsListAdapter.ViewHolder>() {
+    : RecyclerView.Adapter<PatientsListAdapter.ViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

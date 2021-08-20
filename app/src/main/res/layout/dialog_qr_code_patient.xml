@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:fillViewport="true"
     android:background="@drawable/round_dialog_bg"
+    android:fillViewport="true"
 
-    tools:context=".ui.dialog.ConsultQrCodeDialog">
+    tools:context=".ui.dialog.QrCodePatientDialog">
 
     <Button
-        android:id="@+id/back_bt_consultQrCode"
+        android:id="@+id/back_bt_consultQrCode_patient"
         style="@style/button1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -20,12 +20,12 @@
         android:paddingRight="50dp"
         android:text="voltar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btn_consultQrCode"
-        app:layout_constraintStart_toStartOf="@+id/btn_consultQrCode"
-        app:layout_constraintTop_toBottomOf="@+id/btn_consultQrCode" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_consultQrCode_patient"
+        app:layout_constraintStart_toStartOf="@+id/btn_consultQrCode_patient"
+        app:layout_constraintTop_toBottomOf="@+id/btn_consultQrCode_patient" />
 
     <Button
-        android:id="@+id/btn_consultQrCode"
+        android:id="@+id/btn_consultQrCode_patient"
         style="@style/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

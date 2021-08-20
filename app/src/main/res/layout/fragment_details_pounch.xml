@@ -17,8 +17,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="6dp"
-            android:layout_marginEnd="6dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
             android:background="#2C7CA5"
             android:orientation="vertical"
             android:padding="6dp">
@@ -194,8 +194,8 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="6dp"
-            android:layout_marginEnd="6dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
             android:background="@drawable/status_pounch_bg"
             android:padding="4dp"
             android:text="Entregue Adiantado"
@@ -207,16 +207,20 @@
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
-            android:layout_marginEnd="16dp"
-            android:text="LISTA DE MEDICAMENTOS"
-            android:textSize="@dimen/text_size5" />
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="12dp"
+            android:text="Lista de Medicamentos"
+            android:textSize="@dimen/text_size6"
+            android:textStyle="bold" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/pounch_rv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
             android:background="#F8F8FF" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

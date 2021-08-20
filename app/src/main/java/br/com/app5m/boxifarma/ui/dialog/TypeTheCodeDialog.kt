@@ -5,11 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
-import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import br.com.app5m.boxifarma.R
-import kotlinx.android.synthetic.main.dialog_consult_qr_code.*
-import kotlinx.android.synthetic.main.dialog_consult_qr_code.btn_consultQrCode
+
 import kotlinx.android.synthetic.main.dialog_type_the_code.*
 
 class TypeTheCodeDialog : DialogFragment() {

@@ -6,12 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import br.com.app5m.boxifarma.Helper.RecyclerItemClickListener
 import br.com.app5m.boxifarma.R
 import br.com.app5m.boxifarma.model.Model
+import br.com.app5m.boxifarma.ui.adapter.PatientsListAdapter
 import br.com.app5m.boxifarma.ui.adapter.PounchAdapter
 import kotlinx.android.synthetic.main.fragment_patients_list.*
 
@@ -31,6 +33,11 @@ class PatientsListFrag : Fragment(), RecyclerItemClickListener {
 
 //        patients_rv
     }
+    override fun onClickListenerPatientsList(model: Model) {
+        findNavController().navigate(R.id.action_patientsListFrag_to_detailsPatientFrag)
+
+    }
+
     @SuppressLint("UseCompatLoadingForDrawables")
     fun configureInitialViews() {
         listModel.add(Model())
@@ -51,7 +58,7 @@ class PatientsListFrag : Fragment(), RecyclerItemClickListener {
             patients_rv.addItemDecoration(itemDecoration)
 
         }
-        val patientsAdapter = PounchAdapter(requireContext(), listModel, this)
+        val patientsAdapter = PatientsListAdapter(requireContext(), listModel, this)
 
         val layoutPatientsManagerRv: RecyclerView.LayoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)

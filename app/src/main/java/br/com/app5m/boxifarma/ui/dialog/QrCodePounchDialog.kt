@@ -12,9 +12,9 @@ import androidx.navigation.fragment.findNavController
 import br.com.app5m.boxifarma.R
 import com.google.zxing.integration.android.IntentIntegrator
 import com.google.zxing.integration.android.IntentResult
-import kotlinx.android.synthetic.main.dialog_consult_qr_code.*
+import kotlinx.android.synthetic.main.dialog_qr_code_pounch.*
 
-class ConsultQrCodeDialog : DialogFragment() {
+class QrCodePounchDialog : DialogFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setStyle(DialogFragment.STYLE_NORMAL, R.style.DialogNoBackground)
@@ -25,7 +25,7 @@ class ConsultQrCodeDialog : DialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.dialog_consult_qr_code, container, false)
+        return inflater.inflate(R.layout.dialog_qr_code_pounch, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

@@ -24,6 +24,18 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@android:anim/slide_in_left"
             app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_homeFrag_to_patientsListFrag"
+            app:destination="@id/patientsListFrag"   app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFrag_to_detailsPatientFrag"
+            app:destination="@id/detailsPatientFrag"   app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/perfilFragment"
@@ -35,4 +47,22 @@
         android:name="br.com.app5m.boxifarma.ui.fragment.DetailsPounchFrag"
         android:label="fragment_details_pounch"
         tools:layout="@layout/fragment_details_pounch" />
+    <fragment
+        android:id="@+id/patientsListFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.PatientsListFrag"
+        android:label="fragment_patients_list"
+        tools:layout="@layout/fragment_patients_list" >
+        <action
+            android:id="@+id/action_patientsListFrag_to_detailsPatientFrag"
+            app:destination="@id/detailsPatientFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/detailsPatientFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.DetailsPatientFrag"
+        android:label="fragment_details_patient"
+        tools:layout="@layout/fragment_details_patient" />
 </navigation>
