@@ -12,6 +12,15 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp">
 
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Listar Pacientes"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size6" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
