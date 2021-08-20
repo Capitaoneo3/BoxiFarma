@@ -206,7 +206,7 @@
                             android:layout_height="wrap_content"
                             android:text="BRA00494"
                             android:textColor="#FFFFFF"
-                            android:textSize="@dimen/text_size4" />
+                            android:textSize="@dimen/text_size3" />
                     </LinearLayout>
 
                     <LinearLayout
