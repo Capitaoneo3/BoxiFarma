@@ -17,10 +17,22 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@android:anim/slide_in_left"
             app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFrag_to_detailsPounchFrag"
+            app:destination="@id/detailsPounchFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/perfilFragment"
         android:name="br.com.app5m.boxifarma.ui.fragment.PerfilFragment"
         android:label="fragment_perfil"
         tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/detailsPounchFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.DetailsPounchFrag"
+        android:label="fragment_details_pounch"
+        tools:layout="@layout/fragment_details_pounch" />
 </navigation>

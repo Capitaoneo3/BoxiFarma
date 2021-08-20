@@ -200,7 +200,10 @@
                                 android:minHeight="60dp"
                                 android:paddingTop="10dp"
                                 android:text="464891561"
-                                android:textColor="#E0E0E2" />
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="#E0E0E2"
+                                android:textSize="@dimen/text_size_super" />
 
 
                         </com.google.android.material.textfield.TextInputLayout>

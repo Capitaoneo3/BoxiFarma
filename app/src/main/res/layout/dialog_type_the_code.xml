@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/round_dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".ui.dialog.TypeTheCodeDialog">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o código abaixo"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/type_code_background"
+        android:orientation="vertical"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#006C6C6C"
+            android:ems="10"
+
+            android:inputType="number"
+            android:minHeight="60dp"
+            android:textColor="#B6B6B6" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/search_bt_typeCode"
+            style="@style/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:minWidth="200dp"
+            android:text="Buscar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back_bt_consultTypeCode"
+            style="@style/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Voltar"
+            app:layout_constraintEnd_toEndOf="@+id/search_bt_typeCode"
+            app:layout_constraintStart_toStartOf="@+id/search_bt_typeCode"
+            app:layout_constraintTop_toBottomOf="@+id/search_bt_typeCode" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

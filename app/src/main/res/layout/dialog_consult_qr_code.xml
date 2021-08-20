@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/trasparent"
     android:fillViewport="true"
-    tools:context=".ui.fragment.dialog.ConsultQrCodeDialog">
+    android:background="@drawable/round_dialog_bg"
+
+    tools:context=".ui.dialog.ConsultQrCodeDialog">
 
     <Button
         android:id="@+id/back_bt_consultQrCode"

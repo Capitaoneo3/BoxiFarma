@@ -43,6 +43,23 @@
         <entry key="..\:/Users/joao/AndroidStudioProjects/BoxFarma/app/src/main/res/menu/home_container_menu.xml" value="0.2833333333333333" />
         <entry key="..\:/Users/joao/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable-watch/sym_def_app_icon.xml" value="0.3143518518518518" />
         <entry key="..\:/Users/joao/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/sym_def_app_icon.xml" value="0.3143518518518518" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/avatar_pouch_bg.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/round_dialog_bg.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/shape_body_items1_border.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/title_pouch_bg.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/type_code_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/adapter_pounch.xml" value="0.5" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/content_activity_scan.xml" value="0.1" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/dialog_consult_qr_code.xml" value="0.67" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/dialog_type_the_code.xml" value="0.22" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_details_pounch.xml" value="0.33" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_perfil.xml" value="0.1" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_pounch_adapter.xml" value="0.33" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_second.xml" value="0.1272644927536232" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_sigin_up.xml" value="0.25" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_type_the_code.xml" value="0.2" />
       </map>
     </option>
   </component>
