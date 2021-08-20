@@ -44,17 +44,20 @@
         <entry key="..\:/Users/joao/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable-watch/sym_def_app_icon.xml" value="0.3143518518518518" />
         <entry key="..\:/Users/joao/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/sym_def_app_icon.xml" value="0.3143518518518518" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/avatar_pouch_bg.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/bg_round_search.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/decor_layout_extense.xml" value="0.3536458333333333" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/decor_layout_no_bg_horizontal.xml" value="0.2898148148148148" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/decor_layout_no_bg_vertical_categories.xml" value="0.3536458333333333" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/decor_shape_margin_left.xml" value="0.3536458333333333" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/decor_shape_no_bg_horizontal.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/decor_shape_no_bg_vertical_categories.xml" value="0.14351851851851852" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/round_dialog_bg.xml" value="0.3536458333333333" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/shape_body_items1_border.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/status_pounch_bg.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/title_pouch_bg.xml" value="0.2898148148148148" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/type_code_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/adapter_patients_list.xml" value="0.23703703703703705" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/adapter_pounch.xml" value="0.33" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/content_activity_scan.xml" value="0.1" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/dialog_consult_qr_code.xml" value="0.67" />
@@ -64,6 +67,7 @@
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_home_container.xml" value="0.286231884057971" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_intro_container.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_patients_list.xml" value="0.21829710144927536" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_perfil.xml" value="0.1" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_pounch_adapter.xml" value="0.33" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_second.xml" value="0.1272644927536232" />

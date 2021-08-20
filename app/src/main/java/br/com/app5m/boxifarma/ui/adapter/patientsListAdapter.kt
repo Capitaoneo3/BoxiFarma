@@ -9,16 +9,16 @@ import br.com.app5m.boxifarma.Helper.RecyclerItemClickListener
 import br.com.app5m.boxifarma.R
 import br.com.app5m.boxifarma.model.Model
 
-class PounchAdapter (private val context: Context, private val listPounch: List<Model>,
-                     private val clickOnListener: RecyclerItemClickListener
+class patientsListAdapter  (private val context: Context, private val listPatients: List<Model>,
+                            private val clickOnListener: RecyclerItemClickListener
 )
-    : RecyclerView.Adapter<PounchAdapter.ViewHolder>() {
+    : RecyclerView.Adapter<patientsListAdapter.ViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val listItem: View = LayoutInflater.from(parent.context)
             .inflate(
-                R.layout.adapter_pounch,
+                R.layout.adapter_patients_list,
                 parent,
                 false
             ) // vai conectar com os ids abaixo
@@ -28,16 +28,16 @@ class PounchAdapter (private val context: Context, private val listPounch: List<
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val pounch = listPounch[position]
+        val patient = listPatients[position]
 
         /* holder.productNameCartTv.text = "Nome do produto"
  */
-        holder.itemView.setOnClickListener { clickOnListener.onClickListenerPouncher(Model()) }
+        holder.itemView.setOnClickListener { clickOnListener.onClickListenerPatientsList(Model()) }
 
     }
 
     override fun getItemCount(): Int {
-        return listPounch.size
+        return listPatients.size
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

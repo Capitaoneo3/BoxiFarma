@@ -9,6 +9,8 @@ interface RecyclerItemClickListener {
     fun onClickListenerPouncher(model: Model){
         //optional body
     }
-
+    fun onClickListenerPatientsList(model: Model){
+        //optional body
+    }
 
 }
