@@ -57,6 +57,7 @@
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/status_pounch_bg.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/title_pouch_bg.xml" value="0.2898148148148148" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/type_code_background.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/drawable/type_of_evolution_background.xml" value="0.21944444444444444" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/adapter_patients_list.xml" value="0.33" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/adapter_pounch.xml" value="0.33" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/adapter_prescription.xml" value="0.33" />
@@ -80,6 +81,8 @@
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_scrolling.xml" value="0.1" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_second.xml" value="0.1272644927536232" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_sigin_up.xml" value="0.25" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_type_of_evolution.xml" value="0.33" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_type_of_evolution2.xml" value="0.25" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_type_the_code.xml" value="0.2" />
       </map>
     </option>
