@@ -2,10 +2,10 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8F8FF"
-    android:fillViewport="true"
     tools:context=".ui.fragment.HomeFrag">
 
     <LinearLayout
@@ -46,7 +46,7 @@
                         android:id="@+id/avatarPerfil_iv"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@android:drawable/sym_def_app_icon" />
+                        android:src="@drawable/avatar" />
 
                 </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
@@ -60,7 +60,7 @@
                 android:drawableEnd="@drawable/ic_edit"
                 android:drawablePadding="16dp"
                 android:drawableTint="@color/colorAccent"
-                android:text="Sarah Smith"
+                android:text="Taison Soares"
                 android:textSize="@dimen/text_size8" />
 
             <TextView
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
-                android:text="sarahsmith@gmail.com" />
+                android:text="taisonsoares@gmail.com" />
 
         </LinearLayout>
 
@@ -221,7 +221,7 @@
                                 android:scaleX="0.8"
                                 android:scaleY="0.8"
                                 android:src="@drawable/ic_noun_menu_167812"
-                                app:tint="#EC8025" />
+                                app:tint="#128AB7" />
                         </androidx.cardview.widget.CardView>
 
                         <TextView

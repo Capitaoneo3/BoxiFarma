@@ -12,5 +12,10 @@ interface RecyclerItemClickListener {
     fun onClickListenerPatientsList(model: Model){
         //optional body
     }
-
+    fun onClickListenerPrescription(model: Model){
+        //optional body
+    }
+    fun onClickListenerTypeOfEvolution(model: Model){
+        //optional body
+    }
 }

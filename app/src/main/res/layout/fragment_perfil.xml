@@ -30,19 +30,30 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="200dp"
-                app:cardElevation="0dp"
-                app:cardMaxElevation="0dp">
+                app:cardBackgroundColor="#2C7CA5"
+                app:cardCornerRadius="90dp"
+                app:cardElevation="0dp">
 
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
-                    android:src="@android:drawable/sym_def_app_icon" />
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    app:cardCornerRadius="90dp"
+                    app:cardElevation="0dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/avatarPerfil_iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/avatar" />
+
+                </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
             <LinearLayout
@@ -57,7 +68,7 @@
                     android:layout_marginStart="24dp"
                     android:layout_marginTop="24dp"
                     android:layout_marginBottom="12dp"
-                    android:text="Nome Sobrenome"
+                    android:text="Taison Soares"
                     android:textColor="@color/textColor"
                     android:textSize="20sp" />
 
@@ -94,7 +105,7 @@
 
                                 android:inputType="textEmailAddress"
                                 android:minHeight="60dp"
-                                android:text="Sharahsmith@gmail.com"
+                                android:text="taisonsoares@gmail.com"
                                 android:textColor="#B6B6B6" />
 
 
@@ -135,7 +146,7 @@
 
                                 android:inputType="text|textEmailAddress"
                                 android:minHeight="60dp"
-                                android:text="Sharah Smith"
+                                android:text="Taison Soares"
                                 android:textColor="#B6B6B6" />
 
 
