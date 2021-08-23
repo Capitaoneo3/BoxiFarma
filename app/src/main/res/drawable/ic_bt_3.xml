@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="245dp"
+    android:height="274dp"
+    android:viewportWidth="245"
+    android:viewportHeight="274">
+  <path
+      android:pathData="M39.401,1.189L204.418,1.189A35.245,37.013 90,0 1,241.432 36.434L241.432,236.154A35.245,37.013 90,0 1,204.418 271.399L39.401,271.399A35.245,37.013 90,0 1,2.388 236.154L2.388,36.434A37.013,35.245 0,0 1,39.401 1.189z"
+      android:fillColor="#128ab7"/>
+  <group>
+    <clip-path
+        android:pathData="M39.401,1.189L204.418,1.189A35.245,37.013 90,0 1,241.432 36.434L241.432,236.154A35.245,37.013 90,0 1,204.418 271.399L39.401,271.399A35.245,37.013 90,0 1,2.388 236.154L2.388,36.434A37.013,35.245 0,0 1,39.401 1.189z"/>
+    <path
+        android:pathData="M1.805,-169.937 L-177.473,0.766 1.805,171.474 181.074,0.766ZM-171.17,0.766 L1.805,-163.935 174.771,0.766 1.805,165.472Z"
+        android:strokeAlpha="0.24"
+        android:fillColor="#f8f8ff"
+        android:fillAlpha="0.24"/>
+    <path
+        android:pathData="m1.805,-146.67 l-154.838,147.44 154.838,147.44 154.838,-147.44zM-140.423,0.771 L1.805,-134.666 144.033,0.766 1.805,136.203z"
+        android:strokeAlpha="0.24"
+        android:fillColor="#f8f8ff"
+        android:fillAlpha="0.24"/>
+    <path
+        android:pathData="m1.805,-117.396 l-124.096,118.162 124.096,118.171 124.096,-118.171zM-115.988,0.766 L1.805,-111.396l117.793,112.16 -117.793,112.171z"
+        android:strokeAlpha="0.24"
+        android:fillColor="#f8f8ff"
+        android:fillAlpha="0.24"/>
+    <path
+        android:pathData="m1.805,-91.139 l-96.51,91.905 96.51,91.899 96.51,-91.899zM-88.405,0.766 L1.805,-85.126l90.207,85.893 -90.207,85.897z"
+        android:strokeAlpha="0.24"
+        android:fillColor="#f8f8ff"
+        android:fillAlpha="0.24"/>
+    <path
+        android:pathData="M1.804,63.396l-65.77,-62.627l65.77,-62.627l65.77,62.627z"
+        android:strokeAlpha="0.24"
+        android:fillColor="#f8f8ff"
+        android:fillAlpha="0.24"/>
+  </group>
+</vector>

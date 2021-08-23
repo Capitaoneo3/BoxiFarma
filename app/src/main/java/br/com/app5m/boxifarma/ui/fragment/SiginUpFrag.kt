@@ -8,6 +8,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import br.com.app5m.boxifarma.R
 import kotlinx.android.synthetic.main.fragment_sigin_up.*
+import androidx.activity.OnBackPressedCallback
+
+
+
 
 class SiginUpFrag : Fragment() {
 
@@ -23,9 +27,26 @@ class SiginUpFrag : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val navigation = Navigation.findNavController(view)
 
+
+
         next_siginUp_bt.setOnClickListener {
             navigation?.navigate(R.id.action_siginUpFrag_to_phoneValidation1Frag)
 
         }
+        back_sigin_up.setOnClickListener {
+/*
+            requireActivity().getOnBackPressedDispatcher().addCallback(getViewLifecycleOwner(), this);
+*/
+
+
+
+        }
     }
+ /*   fun handleOnBackPressed(): Boolean {
+        //Do your job here
+        //use next line if you just need navigate up
+        //NavHostFragment.findNavController(this).navigateUp();
+        //Log.e(getClass().getSimpleName(), "handleOnBackPressed");
+        return true
+    }*/
 }

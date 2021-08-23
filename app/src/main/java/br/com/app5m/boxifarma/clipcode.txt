@@ -6,3 +6,10 @@ Auto size text
      android:autoSizeMaxTextSize="16sp"
     android:autoSizeMinTextSize="12sp"
     android:autoSizeTextType="uniform"
+
+
+
+    counsultPounch_cv
+    typeCode_pounch_cv
+    consultQr_patient_cv
+    listPatients_cv

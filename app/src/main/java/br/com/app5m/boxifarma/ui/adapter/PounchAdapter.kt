@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import br.com.app5m.boxifarma.Helper.RecyclerItemClickListener
 import br.com.app5m.boxifarma.R
@@ -41,11 +42,13 @@ class PounchAdapter (private val context: Context, private val listPounch: List<
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-/*        val productNameCartTv: TextView
+ /*       val card: LinearLayout
+        val dropDown: LinearLayout
 
 
         init {
-            productNameCartTv = itemView.findViewById(R.id.productNameCartTv)
+            card = itemView.findViewById(R.id.card)
+            dropDown = itemView.findViewById(R.id.dropDown)
 
         }*/
     }

@@ -28,7 +28,8 @@
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="end"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/imageView4"
