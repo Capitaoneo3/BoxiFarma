@@ -78,6 +78,22 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@android:anim/slide_in_left"
             app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_detailsPatientFrag_to_evolutionFrag"
+            app:destination="@id/evolutionFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_detailsPatientFrag_to_relativesFrag"
+            app:destination="@id/relativesFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            />
     </fragment>
     <fragment
         android:id="@+id/prescriptionFragment"
@@ -111,4 +127,14 @@
             app:popExitAnim="@android:anim/slide_out_right"
             />
     </fragment>
+    <fragment
+        android:id="@+id/evolutionFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.EvolutionFrag"
+        android:label="fragment_evolution"
+        tools:layout="@layout/fragment_evolution" />
+    <fragment
+        android:id="@+id/relativesFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.RelativesFrag"
+        android:label="fragment_relatives"
+        tools:layout="@layout/fragment_relatives" />
 </navigation>

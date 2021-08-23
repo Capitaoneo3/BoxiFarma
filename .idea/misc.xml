@@ -69,6 +69,7 @@
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/dialog_type_the_code.xml" value="0.22" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_details_patient.xml" value="0.25" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_details_pounch.xml" value="0.33" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_evolution.xml" value="0.18006430868167203" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_home_container.xml" value="0.286231884057971" />
@@ -81,6 +82,7 @@
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_prescription.xml" value="0.22" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_qr_code_patient_dialog.xml" value="0.1" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_recover_pass.xml" value="0.2918918918918919" />
+        <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_relatives.xml" value="0.25" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_scrolling.xml" value="0.1" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_second.xml" value="0.1272644927536232" />
         <entry key="..\:/Users/joao/StudioProjects/BoxiFarma/app/src/main/res/layout/fragment_sigin_in.xml" value="0.2918918918918919" />

@@ -31,11 +31,15 @@ class DetailsPatientFrag : Fragment() {
 
         prescription_bt.setOnClickListener {
             navigation?.navigate(R.id.action_detailsPatientFrag_to_prescriptionFragment)
-
+        }
+        evolution_bt.setOnClickListener {
+            navigation?.navigate(R.id.action_detailsPatientFrag_to_evolutionFrag)
+        }
+        relatives_bt.setOnClickListener {
+            navigation?.navigate(R.id.action_detailsPatientFrag_to_relativesFrag)
         }
         TypeOfEvolution_bt.setOnClickListener {
             navigation?.navigate(R.id.action_detailsPatientFrag_to_typeOfEvolutionFrag)
-
         }
 
     }
