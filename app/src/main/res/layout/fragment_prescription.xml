@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="12dp"
-            android:text="Listar Pacientes"
+            android:text="Prescrição"
             android:textAlignment="center"
             android:textSize="@dimen/text_size5"
             android:textStyle="bold" />

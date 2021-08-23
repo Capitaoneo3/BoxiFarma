@@ -365,7 +365,7 @@
         </androidx.cardview.widget.CardView>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/prescription_bt"
             style="@style/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -379,7 +379,7 @@
             app:iconPadding="16dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/evolution_bt"
             style="@style/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -393,7 +393,7 @@
             app:iconPadding="16dp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/relatives_bt"
             style="@style/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -408,7 +408,7 @@
             app:iconSize="30dp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/TypeOfEvolution_bt"
             style="@style/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

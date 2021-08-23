@@ -64,5 +64,51 @@
         android:id="@+id/detailsPatientFrag"
         android:name="br.com.app5m.boxifarma.ui.fragment.DetailsPatientFrag"
         android:label="fragment_details_patient"
-        tools:layout="@layout/fragment_details_patient" />
+        tools:layout="@layout/fragment_details_patient" >
+        <action
+            android:id="@+id/action_detailsPatientFrag_to_prescriptionFragment"
+            app:destination="@id/prescriptionFragment"   app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_detailsPatientFrag_to_typeOfEvolutionFrag"
+            app:destination="@id/typeOfEvolutionFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/prescriptionFragment"
+        android:name="br.com.app5m.boxifarma.ui.fragment.PrescriptionFragment"
+        android:label="fragment_prescription"
+        tools:layout="@layout/fragment_prescription" />
+    <fragment
+        android:id="@+id/typeOfEvolutionFrag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.TypeOfEvolutionFrag"
+        android:label="fragment_type_of_evolution"
+        tools:layout="@layout/fragment_type_of_evolution" >
+        <action
+            android:id="@+id/action_typeOfEvolutionFrag_to_typeOfEvolution2Frag"
+            app:destination="@id/typeOfEvolution2Frag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/typeOfEvolution2Frag"
+        android:name="br.com.app5m.boxifarma.ui.fragment.TypeOfEvolution2Frag"
+        android:label="fragment_type_of_evolution2"
+        tools:layout="@layout/fragment_type_of_evolution2" >
+        <action
+            android:id="@+id/action_typeOfEvolution2Frag_to_homeFrag"
+            app:destination="@id/homeFrag"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            />
+    </fragment>
 </navigation>
